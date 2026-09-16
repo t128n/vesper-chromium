@@ -1,6 +1,6 @@
 {
   "name": "vesper-chromium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chromium theme ports (Dark & Light) based on Rauno Freiberg's Vesper theme",
   "scripts": {
     "build": "bash scripts/build.sh",

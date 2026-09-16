@@ -11,24 +11,26 @@ A deep, clean dark theme with warm orange accents and low-contrast UI chrome des
 
 | Element | RGB | Hex | Role |
 | :--- | :--- | :--- | :--- |
-| **Background / Frame** | `16, 16, 16` | `#101010` | Tab bar & main frame background |
-| **Inactive Frame** | `28, 28, 28` | `#1C1C1C` | Background when window is unfocused |
-| **Toolbar / Omnibox** | `16, 16, 16` | `#101010` | Address bar and toolbar background |
+| **Active Tab & Toolbar** | `34, 34, 34` | `#222222` | Active tab surface & toolbar |
+| **Tab Strip / Frame** | `16, 16, 16` | `#101010` | Tab bar background & inactive tabs |
+| **Inactive Frame** | `10, 10, 10` | `#0A0A0A` | Tab bar when window is unfocused |
 | **Accent / Buttons** | `255, 199, 153` | `#FFC799` | Toolbar icons, links, active elements |
-| **Primary Text** | `255, 255, 255` | `#FFFFFF` | Tab and toolbar titles |
-| **Muted Text** | `160, 160, 160` | `#A0A0A0` | Background tabs & inactive text |
+| **Active Tab Text** | `255, 255, 255` | `#FFFFFF` | Active tab & toolbar titles |
+| **Inactive Tab Text** | `140, 140, 140` | `#8C8C8C` | Background tabs & inactive text |
+| **Omnibox Background** | `16, 16, 16` | `#101010` | Recessed address bar |
 
 ### Vesper Light
 A crisp, warm light companion theme using the same visual hierarchy.
 
 | Element | RGB | Hex | Role |
 | :--- | :--- | :--- | :--- |
-| **Background / Frame** | `255, 255, 255` | `#FFFFFF` | Tab bar & main frame background |
-| **Inactive Frame** | `240, 240, 240` | `#F0F0F0` | Background when window is unfocused |
-| **Toolbar / Omnibox** | `255, 255, 255` | `#FFFFFF` | Address bar and toolbar background |
+| **Active Tab & Toolbar** | `255, 255, 255` | `#FFFFFF` | Crisp white active tab & toolbar |
+| **Tab Strip / Frame** | `232, 232, 232` | `#E8E8E8` | Soft grey tab bar & inactive tabs |
+| **Inactive Frame** | `242, 242, 242` | `#F2F2F2` | Tab bar when window is unfocused |
 | **Accent / Buttons** | `217, 127, 65` | `#D97F41` | Toolbar icons, links, active elements |
-| **Primary Text** | `16, 16, 16` | `#101010` | Tab and toolbar titles |
-| **Muted Text** | `130, 130, 130` | `#828282` | Background tabs & inactive text |
+| **Active Tab Text** | `16, 16, 16` | `#101010` | High-contrast dark active tab title |
+| **Inactive Tab Text** | `115, 115, 115` | `#737373` | Muted background tabs text |
+| **Omnibox Background** | `242, 242, 242` | `#F2F2F2` | Soft recessed address bar |
 
 ## 📥 Installation
 
