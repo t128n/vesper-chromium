@@ -3,7 +3,7 @@
   "name": "Vesper",
   "short_name": "Vesper",
   "description": "Dark theme for Chromium-based browsers, based on Rauno Freiberg's Vesper VS Code theme.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
@@ -14,10 +14,10 @@
     "colors": {
       "frame": [16, 16, 16],
       "frame_inactive": [10, 10, 10],
-      "toolbar": [34, 34, 34],
+      "toolbar": [22, 22, 22],
       "toolbar_text": [255, 255, 255],
       "toolbar_button_icon": [255, 199, 153],
-      "button_background": [48, 48, 48],
+      "button_background": [40, 40, 40],
       "tab_text": [255, 255, 255],
       "tab_background_text": [140, 140, 140],
       "background_tab": [16, 16, 16],
