@@ -1,0 +1,28 @@
+{
+  "name": "vesper-chromium",
+  "version": "1.0.0",
+  "description": "Chromium theme ports (Dark & Light) based on Rauno Freiberg's Vesper theme",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "test": "node scripts/validate.js",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "vesper",
+    "chrome",
+    "chromium",
+    "theme",
+    "extension",
+    "dark-theme",
+    "light-theme",
+    "arc",
+    "brave",
+    "edge"
+  ],
+  "author": "Torben Haack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t128n/vesper-chromium.git"
+  }
+}

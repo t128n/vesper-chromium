@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Vesper Light",
+  "short_name": "Vesper Light",
+  "description": "Light companion theme for Chromium-based browsers, based on Rauno Freiberg's Vesper VS Code theme.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "theme": {
+    "images": {},
+    "colors": {
+      "frame": [255, 255, 255],
+      "frame_inactive": [240, 240, 240],
+      "tab_background_text": [130, 130, 130],
+      "tab_text": [16, 16, 16],
+      "toolbar": [255, 255, 255],
+      "toolbar_text": [16, 16, 16],
+      "toolbar_button_icon": [217, 127, 65],
+      "button_background": [224, 224, 224],
+      "ntp_background": [255, 255, 255],
+      "ntp_text": [16, 16, 16],
+      "ntp_link": [217, 127, 65],
+      "ntp_section": [240, 240, 240],
+      "ntp_section_text": [16, 16, 16],
+      "ntp_section_link": [217, 127, 65],
+      "bookmark_text": [16, 16, 16],
+      "omnibox_background": [255, 255, 255],
+      "omnibox_text": [16, 16, 16]
+    },
+    "tints": {},
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Vesper",
+  "short_name": "Vesper",
+  "description": "Dark theme for Chromium-based browsers, based on Rauno Freiberg's Vesper VS Code theme.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "theme": {
+    "images": {},
+    "colors": {
+      "frame": [16, 16, 16],
+      "frame_inactive": [28, 28, 28],
+      "tab_background_text": [160, 160, 160],
+      "tab_text": [255, 255, 255],
+      "toolbar": [16, 16, 16],
+      "toolbar_text": [255, 255, 255],
+      "toolbar_button_icon": [255, 199, 153],
+      "button_background": [40, 40, 40],
+      "ntp_background": [16, 16, 16],
+      "ntp_text": [255, 255, 255],
+      "ntp_link": [255, 199, 153],
+      "ntp_section": [28, 28, 28],
+      "ntp_section_text": [255, 255, 255],
+      "ntp_section_link": [255, 199, 153],
+      "bookmark_text": [255, 255, 255],
+      "omnibox_background": [16, 16, 16],
+      "omnibox_text": [255, 255, 255]
+    },
+    "tints": {},
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
