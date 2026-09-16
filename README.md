@@ -1,14 +1,8 @@
 # Vesper for Chromium
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
-[![CI / Release](https://github.com/t128n/vesper-chromium/actions/workflows/ci.yml/badge.svg)](https://github.com/t128n/vesper-chromium/actions/workflows/ci.yml)
-
-A faithful port of Rauno Freiberg's popular [Vesper](https://github.com/raunofreiberg/vesper) theme for Chromium-based browsers (Google Chrome, Brave, Arc, Microsoft Edge, Opera, Vivaldi).
+A faithful port of Rauno Freiberg's popular [Vesper](https://github.com/raunofreiberg/vesper) theme for Chromium-based browsers.
 
 Includes both the signature **Vesper Dark** theme and the **Vesper Light** companion theme.
-
----
 
 ## 🎨 Themes & Color Palette
 
@@ -36,8 +30,6 @@ A crisp, warm light companion theme using the same visual hierarchy.
 | **Primary Text** | `16, 16, 16` | `#101010` | Tab and toolbar titles |
 | **Muted Text** | `130, 130, 130` | `#828282` | Background tabs & inactive text |
 
----
-
 ## 📥 Installation
 
 ### Method 1: Drag and Drop (Recommended)
@@ -58,53 +50,9 @@ A crisp, warm light companion theme using the same visual hierarchy.
 3. Click **Load unpacked** in the top-left corner.
 4. Select the `dark/` or `light/` folder from this repo.
 
----
-
-## 🚀 CI/CD & Automated Packaging
-
-This repository uses GitHub Actions (`.github/workflows/ci.yml`) to automatically validate and package releases:
-
-- **Push & Pull Request**: Runs `scripts/validate.js` to ensure valid Manifest V3 schemas and icon specifications, packages both extensions into `dist/*.zip`, and uploads them as workflow build artifacts.
-- **Git Tags (`v*`)**: Whenever a release tag like `v1.0.0` is pushed, CI automatically creates a GitHub Release and attaches `vesper-dark.zip` and `vesper-light.zip` for one-click downloading.
-
----
-
-## 🛠️ Local Development & Building
-
-To validate manifests and build the distribution zips locally:
-
-```bash
-# Validate manifests and icon assets
-npm run validate
-# or: node scripts/validate.js
-
-# Build zip archives into dist/
-npm run build
-# or: bash scripts/build.sh
-```
-
-The resulting zip files will be placed in `dist/`:
-- `dist/vesper-dark.zip`
-- `dist/vesper-light.zip`
-
----
-
-## 🌐 Supported Browsers
-
-- Google Chrome (Desktop)
-- Brave Browser
-- Arc Browser
-- Microsoft Edge
-- Opera / Opera GX
-- Vivaldi
-- Chromium
-
----
-
 ## 📄 Credits & Attribution
 
-- Original Vesper color scheme and design by **[Rauno Freiberg](https://github.com/raunofreiberg)** ([raunofreiberg/vesper](https://github.com/raunofreiberg/vesper)).
-- Chromium ports maintained by **Torben Haack**.
+Original Vesper color scheme and design by **[Rauno Freiberg](https://github.com/raunofreiberg)** ([raunofreiberg/vesper](https://github.com/raunofreiberg/vesper)).
 
 ## ⚖️ License
 
